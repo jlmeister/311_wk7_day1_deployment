@@ -7,10 +7,11 @@ class Connection {
 
       const config = {
         connectionLimit: 100,
-        host: 'localhost',
-        user: 'root',
+        host: '34.67.155.32',
+        user: 'jm',
         password: 'password',
-        database: 'admin'
+        database: 'admin',
+        port: '3306'
       }
 
       if (process.env.NODE_ENV === 'production' && process.env.CLOUD_INSTANCE) {
